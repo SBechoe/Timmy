@@ -1,0 +1,24 @@
+*
+{
+	padding: 0px;
+	margin: 0px;
+}
+
+header
+{
+	width: 100%;
+	background-color: #f7a839;
+	background-image: url("../img/header.png");
+	background-size: contain;
+	text-align: center;
+}
+
+header img
+{
+	width: 20%;
+}
+
+nav
+{
+	border-bottom: 1px solid grey;
+}
