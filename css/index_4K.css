@@ -1,4 +1,4 @@
-@media only screen and (max-width:500px) {
+@media only screen and (min-width:1500px) {
 	*
 	{
 		padding: 0px;
@@ -10,13 +10,13 @@
 		width: 100%;
 		background-color: #f7a839;
 		background-image: url("../img/header.png");
-		background-size: cover;
+		background-size: contain;
 		text-align: center;
 	}
 
 	header img
 	{
-		width: 50%;
+		width: 20%;
 	}
 
 	nav
@@ -31,21 +31,27 @@
 	{
 		text-decoration: none;
 		font-family: sans-serif;
-		width: 100%;
+	}
+
+	nav a:nth-child(2) button
+	{
+		border-left: 1px solid #eaeaea;
+		border-right: 1px solid #eaeaea;
 	}
 
 	nav button
 	{
 		background-color: #fff;
 		color: grey;
-		padding: 5px 0px;
+		border: none;
+		padding: 20px 0px;
 		text-decoration: none;
 		display: inline-block;
-		font-size: 16px;
+		font-size: 30px;
+		float: left;
 		cursor: pointer;
-		width: 100%;
+		width: 33.33%;
 		transition-duration: 0.4s;
-		border: 1px solid #eaeaea;
 	}
 
 	nav button:hover
